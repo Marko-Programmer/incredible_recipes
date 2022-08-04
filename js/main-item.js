@@ -39,6 +39,7 @@ if (menuLinks.length > 0) {
             });
             headerBurger.classList.remove('active');
             headerMenu.classList.remove('active');
+            mainOpacity.classList.remove('active');
             e.preventDefault();
         }
         body.classList.remove('lock')
