@@ -1,0 +1,143 @@
+.receipts {
+    padding: 30px 0 50px 0;
+}
+
+.receipts__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.receipts__title {
+    margin: 0 auto 20px auto;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.receipts__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.receipts__item {
+    width: 330px;
+    height: 540px;
+    background-color: rgb(175, 165, 100);
+    margin: 10px 10px;
+    border-radius: 25px;
+    display: grid;
+    grid-template-rows: 66px 1fr 66px;
+    padding: 15px 10px 15px 10px;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: .3s ease-out;
+}
+
+.receipts__item:hover {
+    transform: scale(1.05);
+}
+
+.item__title {
+    font-size: 28px;
+    line-height: 28px;
+    margin: 0 0 15px 0;
+    color: black;
+}
+
+.item__img-c {
+    width: 300px;
+    height: 360px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 0 auto 15px auto;
+}
+
+// .item__img {
+// }
+
+.item__pseudolink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    width: 300px;
+    height: 66px;
+    background-color: rgb(147, 201, 108);
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    transition: .3s ease-out;
+    margin: 0 auto;
+}
+
+
+
+
+.item__pseudolink:hover {
+    background-color: rgb(127, 181, 88);
+}
+
+
+.soon {
+    font-size: 50px;
+    margin: auto;
+    position: relative;
+    top: 320%;
+}
+
+@media (max-width:1080px) {
+    .receipts__item {
+        width: 45%;
+    }
+
+    .item__img-c {
+        width: 95%;
+        height: 360px;
+    }
+
+    .item__pseudolink {
+        width: 95%;
+        height: 66px;
+    }
+}
+
+
+@media (max-width:650px) {
+    .receipts__item {
+        width: 95%;
+        margin: 10px 0;
+    }
+
+    .item__img-c {
+        width: 95%;
+        height: 360px;
+    }
+
+    .item__pseudolink {
+        width: 95%;
+        height: 66px;
+    }
+}
+
+@media (max-width:560px) {
+    .receipts__title {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width:450px) {
+    .item__title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:290px) {
+    .item__title {
+        font-size: 22px;
+    }
+}

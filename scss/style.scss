@@ -1,0 +1,90 @@
+@import "_nullstyle";
+@import "_header";
+@import "_receipts";
+@import "_footer";
+
+@import "_main-item";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+// font-family: 'Roboto Slab', serif;
+// font-family: 'Inter', sans-serif;
+// font-family: 'Ubuntu', sans-serif;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+// font-family: 'Pacifico', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,500&display=swap');
+// font-family: 'Bitter', serif;
+
+
+// rgb(175, 165, 100)
+// rgb(81, 152, 81)
+
+
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(239, 239, 212);
+}
+
+body.lock{
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.main__opacity {
+    opacity: 1;
+    transition: .3s ease-out;
+}
+
+.main__opacity.active {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+//scrollbar
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background:darkgrey; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background:  gray; 
+  }
+//scrollbar
+
+
+
+
+
+// Телефони — 320, 480;
+// Планшети — 768;
+// Нетбуки — 1024;
+// Монітори — 1280, 1600, 1920.
+
+// @media (max-width:1280px) {
+// }
+// @media (max-width:1024px) {
+// }
+// @media (max-width:850px) {
+// }
+// @media (max-width:768px) {
+//                                 Бургер Хедер
+// }
+// @media (max-width:480px) {
+// }
+// @media (max-width:320px) {
+// }
