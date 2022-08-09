@@ -34,7 +34,9 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-
+.present__img,.item__img-c{
+    background-color: rgb(150 141 78);
+}
 
 @media (max-width:1000px) {
     .present__body {
@@ -182,14 +184,8 @@ height: 380px;
     }
 
     .way__containers {
-        width: 70%;
+        width: 90%;
         margin: 0 auto 20px auto;
-    }
-}
-
-@media (max-width:500px) {
-    .way__containers {
-        width: 85%;
     }
 }
 
