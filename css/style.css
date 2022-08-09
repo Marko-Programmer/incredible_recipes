@@ -773,9 +773,9 @@ body.lock {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: darkgrey;
+  background: rgb(30, 60, 41);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: gray;
+  background: rgb(20, 41, 28);
 }
