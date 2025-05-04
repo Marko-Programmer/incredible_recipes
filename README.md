@@ -21,7 +21,7 @@ The site was hosted for personal use for a month to provide access to the recipe
 
 ## Live Demo
 
-Check out the live version of the website: [Exquisite Canning Recipes Website](https://marko-programmer.github.io/incredible_recipes/index.html)
+Check out the live version of the website: [Exquisite Canning Recipes Website](https://marko-programmer.github.io/incredible-recipes/)
 
 ## Installation
 
